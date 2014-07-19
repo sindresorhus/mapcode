@@ -1,6 +1,6 @@
 {
   "name": "mapcode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find mapcodes in a string",
   "license": "MIT",
   "repository": "sindresorhus/mapcode",
