@@ -1,0 +1,43 @@
+{
+  "name": "mapcode",
+  "version": "0.0.0",
+  "description": "Find mapcodes in a string",
+  "license": "MIT",
+  "repository": "sindresorhus/mapcode",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mapcode",
+    "mapcodes",
+    "map",
+    "code",
+    "lat",
+    "long",
+    "longitude",
+    "latitude",
+    "location",
+    "address",
+    "position",
+    "match",
+    "matching",
+    "find"
+  ],
+  "dependencies": {
+    "mapcode-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.3"
+  }
+}
