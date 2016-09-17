@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save mapcode
 ```
 
@@ -13,7 +13,7 @@ $ npm install --save mapcode
 ## Usage
 
 ```js
-var mapcode = require('mapcode');
+const mapcode = require('mapcode');
 
 mapcode('Find these FRA 4J.Q2 Hawaii ZSR.3J mapcodes');
 //=> ['FRA 4J.Q2', 'Hawaii ZSR.3J']
@@ -22,9 +22,9 @@ mapcode('Find these FRA 4J.Q2 Hawaii ZSR.3J mapcodes');
 
 ## Related
 
-See [mapcode-regex](https://github.com/sindresorhus/mapcode-regex) if you need to do something more advanced.
+- [mapcode-regex](https://github.com/sindresorhus/mapcode-regex) - Regular expression for matching mapcodes
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
