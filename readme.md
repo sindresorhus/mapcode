@@ -1,4 +1,4 @@
-# mapcode [![Build Status](https://travis-ci.org/sindresorhus/mapcode.svg?branch=master)](https://travis-ci.org/sindresorhus/mapcode)
+# mapcode
 
 > Find [mapcodes](http://www.mapcode.com/aboutmc.html) in a string
 
