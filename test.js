@@ -1,10 +1,15 @@
 import test from 'ava';
-import m from './';
+import mapcode from './index.js';
 
-test(t => {
-	t.true(Array.isArray(m('')));
+test('main', t => {
+	t.true(Array.isArray(mapcode('')));
+
 	t.deepEqual(
-		m('Foo BR-AM 4J.Q2 Hawaii ZSR.3J - FRA 4J.Q2 Baz'),
-		['BR-AM 4J.Q2', 'Hawaii ZSR.3J', 'FRA 4J.Q2']
+		mapcode('Foo BR-AM 4J.Q2 Hawaii ZSR.3J - FRA 4J.Q2 Baz'),
+		[
+			'BR-AM 4J.Q2',
+			'Hawaii ZSR.3J',
+			'FRA 4J.Q2',
+		],
 	);
 });

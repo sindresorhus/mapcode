@@ -1,4 +1,5 @@
-'use strict';
-const mapcodeRegex = require('mapcode-regex');
+import mapcodeRegex from 'mapcode-regex';
 
-module.exports = str => str.match(mapcodeRegex()) || [];
+export default function mapcode(string) {
+	return string.match(mapcodeRegex()) || [];
+}

@@ -1,47 +1,47 @@
 {
-  "name": "mapcode",
-  "version": "2.0.0",
-  "description": "Find mapcodes in a string",
-  "license": "MIT",
-  "repository": "sindresorhus/mapcode",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "mapcode",
-    "mapcodes",
-    "map",
-    "code",
-    "lat",
-    "long",
-    "longitude",
-    "latitude",
-    "location",
-    "address",
-    "position",
-    "match",
-    "matching",
-    "find"
-  ],
-  "dependencies": {
-    "mapcode-regex": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "mapcode",
+	"version": "2.0.0",
+	"description": "Find mapcodes in a string",
+	"license": "MIT",
+	"repository": "sindresorhus/mapcode",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"mapcode",
+		"mapcodes",
+		"map",
+		"code",
+		"lat",
+		"long",
+		"longitude",
+		"latitude",
+		"location",
+		"address",
+		"position",
+		"match",
+		"matching",
+		"find"
+	],
+	"dependencies": {
+		"mapcode-regex": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.44.0"
+	}
 }
