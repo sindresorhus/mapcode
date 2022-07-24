@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --save mapcode
+```sh
+npm install --save mapcode
 ```
 
 ## Usage
