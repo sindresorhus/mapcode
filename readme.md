@@ -1,6 +1,6 @@
 # mapcode
 
-> Find [mapcodes](http://www.mapcode.com/aboutmc.html) in a string
+> Find [mapcodes](https://www.mapcode.com/en/about) in a string
 
 ## Install
 
